@@ -6,8 +6,8 @@ import schedule
 import time
 
 # Replace these with your actual Supabase URL and API Key
-supabase_url = "https://xjgfurxtzkfpcfyiedcu.supabase.co"
-supabase_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhqZ2Z1cnh0emtmcGNmeWllZGN1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzA3MjQzNjMsImV4cCI6MjA0NjMwMDM2M30.oLWk6OAqcSC59OzIpf-ZyZX2l3ToRDTTk6e2fNwP3q0"
+supabase_url = ""
+supabase_key = ""
 
 # Initialize the Supabase client
 supabase: Client = create_client(supabase_url, supabase_key)
